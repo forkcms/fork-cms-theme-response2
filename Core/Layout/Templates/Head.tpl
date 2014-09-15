@@ -11,7 +11,6 @@
 	<meta name="generator" content="Fork CMS" />
 	<meta name="description" content="{$metaDescription}" />
 	<meta name="keywords" content="{$metaKeywords}" />
-	{option:debug}<meta name="robots" content="noindex, nofollow" />{/option:debug}
 	{$metaCustom}
 
 	{* Favicon and Apple touch icon *}
