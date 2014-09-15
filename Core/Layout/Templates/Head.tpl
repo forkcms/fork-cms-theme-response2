@@ -33,7 +33,7 @@
 	{* HTML5, respond Javascript *}
 	<!--[if lt IE 9]>
 		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<script src="../Js/respond.min.js"></script>
+		<script src="{$THEME_URL}/Core/Layout/Js/respond.min.js"></script>
 	<![endif]-->
 
 	{* Site wide HTML *}
