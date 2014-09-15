@@ -1,8 +1,8 @@
-{include:core/layout/templates/head.tpl}
+{include:Core/Layout/Templates/Head.tpl}
 
 <body>
 
-	{include:core/layout/templates/header.tpl}
+	{include:Core/Layout/Templates/Header.tpl}
 
 <div class="holder" id="contentHolder">
 	<div id="content" class="row clearfix">
@@ -39,12 +39,12 @@
 
 	</div>
 </div>
-{include:core/layout/templates/footer.tpl}
+{include:Core/Layout/Templates/Footer.tpl}
 
 {* General Javascript *}
 {iteration:jsFiles}
 <script src="{$jsFiles.file}"></script>
 {/iteration:jsFiles}
-<script src="{$THEME_URL}/core/layout/js/scripts.js"></script>
+<script src="{$THEME_URL}/Core/Layout/Js/scripts.js"></script>
 </body>
 </html>
