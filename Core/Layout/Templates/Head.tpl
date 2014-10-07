@@ -11,7 +11,6 @@
 	<meta name="generator" content="Fork CMS" />
 	<meta name="description" content="{$metaDescription}" />
 	<meta name="keywords" content="{$metaKeywords}" />
-	{option:debug}<meta name="robots" content="noindex, nofollow" />{/option:debug}
 	{$metaCustom}
 
 	{* Favicon and Apple touch icon *}
@@ -33,7 +32,7 @@
 	{* HTML5, respond Javascript *}
 	<!--[if lt IE 9]>
 		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<script src="js/respond.min.js"></script>
+		<script src="{$THEME_URL}/Core/Layout/Js/respond.min.js"></script>
 	<![endif]-->
 
 	{* Site wide HTML *}

@@ -43,7 +43,7 @@
 			{* Do not alter the id! It is used as an anchor *}
 			<article id="comment-{$comments.id}" class="comment">
 				{option:comments.website}<a href="{$comments.website}">{/option:comments.website}
-					<img width="48" src="{$THEME_URL}/core/layout/images/default_author_avatar.gif" width="48" height="48" alt="{$comments.author}" class="replaceWithGravatar" data-gravatar-id="{$comments.gravatar_id}" />
+					<img width="48" src="{$THEME_URL}/Core/Layout/images/default_author_avatar.gif" width="48" height="48" alt="{$comments.author}" class="replaceWithGravatar" data-gravatar-id="{$comments.gravatar_id}" />
 				{option:comments.website}</a>{/option:comments.website}
 					<h3 class="commentAuthor">{option:comments.website}<a href="{$comments.website}">{/option:comments.website}{$comments.author}{option:comments.website}</a>{/option:comments.website}</h3>
 					<p class="meta">
